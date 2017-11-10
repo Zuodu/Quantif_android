@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sport" />
+        <item
+            android:id="@+id/nav_sommeil"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sommeil" />
+        <item
+            android:id="@+id/nav_param"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Parametres" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Profil" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_apropos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="A propos de" />
+        </menu>
+    </item>
+
+</menu>
