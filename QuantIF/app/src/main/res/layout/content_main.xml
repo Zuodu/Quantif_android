@@ -14,36 +14,32 @@
         android:layout_height="fill_parent"
         >
 
-    <Button
-        android:id="@+id/button"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="356dp"
-        android:layout_height="65dp"
-        android:layout_below="@+id/textView3"
-        android:text="Debuter une activite"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_Y="439dp" />
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="405dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:text="Debuter une activite" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="342dp"
-            android:layout_height="200dp"
+            android:layout_width="382dp"
+            android:layout_height="245dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="7dp"
-            android:text="Recap sommeil"
-            tools:layout_editor_absoluteX="9dp"
-            tools:layout_editor_absoluteY="5dp" />
+            android:layout_marginTop="21dp"
+            android:text="Recap sommeil" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="342dp"
-            android:layout_height="240dp"
-            android:layout_alignStart="@+id/textView2"
+            android:layout_width="382dp"
+            android:layout_height="260dp"
             android:layout_below="@+id/textView2"
-            android:text="Recap Sport"
-            tools:layout_editor_absoluteX="9dp"
-            tools:layout_editor_relativeY="222dp" />
+            android:layout_centerHorizontal="true"
+            android:text="Recap Sport" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
